@@ -1,0 +1,31 @@
+Validation performed: 2026-11-08 UTC
+- Codex skill-creator quick_validate: context-builder PASS
+- Codex skill-creator quick_validate: context-updater PASS
+- Codex skill-creator quick_validate: brd-builder PASS
+- All 65 Markdown files have visible Latest Update metadata: PASS
+- All relative Markdown links resolve: PASS
+- Shared context-contract references in all eight standalone skills match: PASS
+Not performed: live runtime invocation in the user's Codex or Claude environment; internal policy/source verification; compliance audit; installation on Mac; upload to ChatGPT Project.
+- Independent scenario review: context builder/updater found no material defects for missing PII source and inaccessible Security source scenarios.
+- Independent BRD review: no material defects found in traceability, inference labeling, single-source export, and unavailable source handling.
+- Codex skill-creator quick_validate: technical-specification PASS
+- Independent technical-specification and feedback-loop review: no material defects; subsequent mandatory human approval gate reviewed explicitly.
+- Feedback approval rule: every proposal requires explicit human approval before updating any BRD, Word, prototype or spec artifact.
+- Codex skill-creator quick_validate: implementation-planner PASS
+- Independent implementation-planner review: no material defects in approval, Jira destination/fields, retry deduplication, partial outcomes and traceability.
+- Kanban defaults added: To Do / In Progress / Review / Done; Story goal + AC + BRD link; Task detail + dependencies + spec link. Actual Jira mapping required; no board mutations assumed.
+- Codex skill-creator quick_validate: implementation-builder PASS
+- Independent implementation-builder review: no material defects in story scope, source blockers, local implementation, AC evidence and no-push/no-PR boundary.
+- User refinement: Implementation Builder performs high-level checks and appropriate unit tests; browser UI E2E is not mandatory and is handed off to a later skill with untested flows/risks. Focused security checks retained where relevant.
+- Codex skill-creator quick_validate: test-case-generator PASS
+- Independent test-case-generator review: no material defects in traceability, coverage, source gaps, synthetic-data safety and generation-only boundary.
+- Codex skill-creator quick_validate: test-automation PASS
+- Independent test-automation review: no material defects in QA scope, safe execution, evidence/results completeness or separate ZAP authorization.
+- README setup corrected to selected skills or all 8; package counts rechecked: 8 skills, 65 Markdown files, 66 total files.
+- Integration guide added: 8-skill dependency matrix, least-privilege Jira/SharePoint setup, explicit verification records and manual/export fallback. No integration configured; no platform-specific configuration invented.
+- Independent integration-guide review: no material defects in permission boundaries, verification, fallback provenance or platform-config accuracy.
+- Jira Cloud confirmed by user; official Atlassian remote MCP setup documentation read 2026-11-08 and linked as preferred approach. SharePoint deployment remains unconfirmed. No connection/configuration applied.
+- All 8 skills read matching project-relative artifact path and guided-intake contracts; relative links, metadata, root/ref copy equality and absence of machine-specific absolute paths verified.
+- Independent path/intake review identified a scope-selection overconstraint; fixed: root always, app only for app scope, work-id only for feature artifacts. Enterprise-only updates do not require/create app/work folders.
+- Graphify candidate guidance checked against official CLI/incremental/MCP docs on 2026-11-08. All eight skill lifecycle copies match; no Graphify installation, execution, connection or real graph produced.
+- Independent Graphify lifecycle review: no material defects in code/semantic distinction, corpus authorization, governance records, freshness/provenance or fallback.

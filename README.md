@@ -1,2 +1,6 @@
-# agent-list
-Team playbook and eight reusable skills for software delivery.
+# Agent List — Team Playbook
+
+คู่มือการใช้ 8 Skills สำหรับทีมพัฒนาซอฟต์แวร์ ตั้งแต่รวบรวมบริบทและเขียน requirements ไปจนถึงลงมือพัฒนาและทดสอบ
+
+- [คู่มือ HTML](agent-list-playbook.html): ดาวน์โหลดแล้วเปิดในเบราว์เซอร์ได้ทันที มีภาพขั้นตอนการทำงาน ตัวอย่างตามสถานการณ์ และค้นหาได้ในหน้าเดียว
+- [ชุด Skills และวิธีติดตั้ง](agent-list/README.md): คำสั่งของแต่ละ Skill พร้อมเทมเพลตและไฟล์อ้างอิง
